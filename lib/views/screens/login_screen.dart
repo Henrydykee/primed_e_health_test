@@ -83,8 +83,8 @@ class _LoginScreenState extends State<LoginScreen> {
                     onPressed: () async {
                       if (_formKey.currentState!.validate()) {
                         final success = await auth.login(
-                          _emailController.text,
-                          _passwordController.text,
+                          _emailController.text.trim(),
+                          _passwordController.text.trim()
                         );
                         if (success) {
                           if (!mounted) return;

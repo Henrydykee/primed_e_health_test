@@ -22,7 +22,6 @@ class DetailScreen extends StatelessWidget {
                 width: double.infinity,
                 fit: BoxFit.cover,
                   loadingBuilder: (context, child, loadingProgress) {
-
                     if (loadingProgress == null) return child;
                     return const Center(child: CircularProgressIndicator());
                   },
