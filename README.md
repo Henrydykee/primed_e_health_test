@@ -151,13 +151,6 @@ dev_dependencies:
 
 ---
 
-## Future Enhancements
-- Add API integration for authentication and data fetching.
-- Enhance UI/UX for better user experience.
-- Implement more unit and integration tests.
-
----
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
